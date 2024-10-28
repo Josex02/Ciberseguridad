@@ -4,6 +4,6 @@ Repositorio de Ciberseguridad
 | Actividades  | Descripcion |
 | ------------- | ------------- |
 | [Actividades](Ejercicios/Actividad1.md)  | Actividad Evaluable 1.1 (Scripts I)  |
-|  [Ejercicio2](HTTP-Server/documento.md)  | HTTP Server |
-|  [Ejercicio3](Dummy/documento.md)  | Dummy Web Server |
+|  [Ejercicio2](Ejercicios/Actividad2.md)  | Actividad Evaluable 1.2 (Scripts II) |
+
 
