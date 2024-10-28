@@ -70,6 +70,7 @@ else
     exit 0
 fi
 ````
+![image](https://github.com/user-attachments/assets/94016229-e278-426a-8f54-42a561fdd3cf)
 
 # 6. Repetición del ejercicio 3, verificando que se le han pasado al menos 2 parámetros
 
