@@ -40,6 +40,7 @@ else
     exit 1
 fi
 ````
+![image](https://github.com/user-attachments/assets/83132599-de0d-4078-97aa-29f0752ed592)
 
 # 4. Script que cuenta y muestra los parámetros recibidos
 
