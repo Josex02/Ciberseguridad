@@ -40,7 +40,7 @@ else
     exit 1
 fi
 ````
-![image](https://github.com/user-attachments/assets/83132599-de0d-4078-97aa-29f0752ed592)
+![image](https://github.com/user-attachments/assets/be0a544f-7dd6-4e06-8c45-bb8cb7330af0)
 
 # 4. Script que cuenta y muestra los parámetros recibidos
 
@@ -95,6 +95,7 @@ else
     exit 1
 fi
 ````
+![image](https://github.com/user-attachments/assets/be0a544f-7dd6-4e06-8c45-bb8cb7330af0)
 
 # 7. Script que verifica si una ruta existe y determina si es archivo o directorio
 
@@ -114,6 +115,7 @@ else
 fi
 ````
 
+![image](https://github.com/user-attachments/assets/5ac87419-da2c-4d56-bfe9-cf4c01b26074)
 
 
 
