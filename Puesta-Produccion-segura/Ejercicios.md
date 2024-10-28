@@ -4,6 +4,6 @@ Repositorio de Ciberseguridad
 | Actividades  | Descripcion |
 | ------------- | ------------- |
 | [Actividades](Ejercicios/Actividad1.md)  | Actividad Evaluable 1.1 (Scripts I)  |
-|  [Ejercicio2](Ejercicios/Actividad2.md)  | Actividad Evaluable 1.2 (Scripts II) |
+| [Actividades](Ejercicios/Actividad2.md)  | Actividad Evaluable 1.2 (Scripts II) |
 
 
