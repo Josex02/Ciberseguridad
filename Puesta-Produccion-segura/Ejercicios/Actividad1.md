@@ -54,6 +54,7 @@ else
     echo "Parámetros recibidos: $@"
 fi
 ````
+![image](https://github.com/user-attachments/assets/5dccb7b6-f53b-4880-a3a3-8ba659bc6e9a)
 
 # 5. Modificación del script anterior para retornar códigos de salida
 
