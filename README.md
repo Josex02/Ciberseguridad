@@ -1,4 +1,4 @@
-# CIBERSEGURIDAD - JOSÉ EXPÓSITO ROBLES / 1º TRIMESTRE
+# CIBERSEGURIDAD - JOSÉ EXPÓSITO ROBLES 
 Repositorio de Ciberseguridad
 ## ASIGNATURAS
 | Actividades  | Descripcion |
