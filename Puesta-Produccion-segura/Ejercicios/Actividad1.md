@@ -20,6 +20,7 @@ else
     exit 1
 fi
 ````
+![image](https://github.com/user-attachments/assets/9575ae5a-b6d7-45a5-a955-7c028e31909b)
 
 # 3. Script que crea un directorio y copia un archivo dentro de él
 
