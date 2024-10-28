@@ -5,6 +5,7 @@
 
 echo "El nombre del script es: $0"
 ````
+![image](https://github.com/user-attachments/assets/3a8eff6e-860c-4db7-923e-36424858a4dd)
 
 # 2. Script que muestra el contenido de un archivo (pasado como segundo parámetro) y su exit code
 
