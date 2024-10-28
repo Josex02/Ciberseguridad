@@ -19,3 +19,27 @@ else
     exit 1
 fi
 ````
+
+# 3. Script que crea un directorio y copia un archivo dentro de él
+
+````
+#!/bin/bash
+
+if [ ! -d "$1" ]; then
+    mkdir -p "$1"
+    echo "Directorio '$1' creado."
+fi
+
+if [ -f "$2" ]; then
+    cp "$2" "$1"
+    echo "Archivo '$2' copiado en '$1'."
+else
+    echo "El archivo '$2' no existe."
+    exit 1
+fi
+````
+
+
+
+
+
