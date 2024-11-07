@@ -10,6 +10,8 @@ else
 fi
 ````
 
+![image](https://github.com/user-attachments/assets/2a40c56c-b3e8-4ddc-8658-5a23a352716f)
+
 # 2. Haz un script llamado altura_mayor.sh, que pida por teclado la altura en centímetros
 de tres personas y nos diga la más alta de las tres en metros.
 
@@ -24,6 +26,8 @@ mayor=$(( altura3 > mayor ? altura3 : mayor ))
 
 echo "La mayor altura es: $((mayor / 100)).$((mayor % 100)) metros."
 ````
+
+![image](https://github.com/user-attachments/assets/7878182c-5465-4097-b0e2-40d8f04e5427)
 
 # 3. Haz un script llamado cuenta10ficheros.sh, que nos diga si en el directorio pasado
 como parámetro hay más de 10 ficheros o no, es decir, los directorios no deben ser
@@ -43,6 +47,8 @@ else
 fi
 ````
 
+![image](https://github.com/user-attachments/assets/c0f34664-b6f6-48cc-9be7-01acd8aec62a)
+
 # 4. Haz un script llamado decada_edad.sh que, dada una edad introducida por teclado,
 nos devuelva como resultado la década en la que nacimos (ejemplo 1970, 1980, etc.).
 Suponemos que la edad introducida está entre 15 y 60 años. El script debe coger el año
@@ -52,13 +58,25 @@ década de 1980”.
 
 ````
 #!/bin/bash
-read -p "Introduce tu edad: " edad
-año_actual=$(date +%Y)
-año_nacimiento=$((año_actual - edad))
-decada=$(( (año_nacimiento / 10) * 10 ))
 
-echo "Si naciste en $año_nacimiento, naciste en la década de $decada."
+read -p "Introduce tu edad: " edad
+
+if ! [[ "$edad" =~ ^[0-9]+$ ]] || [ "$edad" -le 0 ]; then
+    echo "Por favor, introduce un número entero positivo para la edad."
+    exit 1
+fi
+
+anio_actual=$(date +%Y)
+
+anio_nacimiento=$((anio_actual - edad))
+
+decada=$(( (anio_nacimiento / 10) * 10 ))
+
+echo "Si naciste en $anio_nacimiento, naciste en la década de los $decada."
+
 ````
+
+![image](https://github.com/user-attachments/assets/5366f7a0-c922-4fa3-813a-9b731a3af407)
 
 # 5. Haz un script llamado diadelmes.sh que nos diga cuántos días tiene el mes actual en
 el momento de su ejecución (se considera que febrero tiene 28 días). La salida debe
