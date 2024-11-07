@@ -73,7 +73,6 @@ anio_nacimiento=$((anio_actual - edad))
 decada=$(( (anio_nacimiento / 10) * 10 ))
 
 echo "Si naciste en $anio_nacimiento, naciste en la década de los $decada."
-
 ````
 
 ![image](https://github.com/user-attachments/assets/5366f7a0-c922-4fa3-813a-9b731a3af407)
@@ -84,11 +83,14 @@ producirse en el siguiente formato: “Estamos en noviembre, un mes con 30 días
 
 ````
 #!/bin/bash
+
 mes_actual=$(date +%B)
-dias=$(cal | awk 'NF {DAYS = $NF}; END {print DAYS}')
+dias=$(date +%d -d "$(date +%Y-%m-01) + 1 month - 1 day")
 
 echo "Estamos en $mes_actual, un mes con $dias días."
 ````
+
+![image](https://github.com/user-attachments/assets/116b4232-9028-45cc-a635-21740078f5ed)
 
 # 6. Haz un script llamado horoscopochino.sh, que pida el año en que nacimos (4 cifras) y
 nos diga por pantalla qué animal nos corresponde según el horóscopo chino. Para
@@ -97,12 +99,14 @@ siguiente tabla
 
 ````
 #!/bin/bash
-read -p "Introduce tu año de nacimiento (4 cifras): " año
+read -p "Introduce tu año de nacimiento (4 cifras): " year
 animales=("La rata" "El buey" "El tigre" "El conejo" "El dragón" "La serpiente" "El caballo" "La cabra" "El mono" "El gallo" "El perro" "El cerdo")
 
-resto=$(( año % 12 ))
+resto=$(( year % 12 ))
 echo "Según el horóscopo chino, eres ${animales[resto]}."
 ````
+
+![image](https://github.com/user-attachments/assets/e1fff4a7-a941-40e5-aa87-a1905d4b0f7a)
 
 # 7. Haz un script llamado sumarango.sh, que pida dos números por teclado y calcule la
 suma de los números que conforman ese rango. Por ejemplo: Si introducimos el 5 y el
@@ -128,6 +132,8 @@ done
 
 echo "La suma del rango es: $suma"
 ````
+
+![image](https://github.com/user-attachments/assets/21529c52-dd21-45bc-88cd-30acd1ddf2c4)
 
 # 8. Realizar un script llamado usuarios.sh que muestre la siguiente información de un
 usuario del sistema pasado por parámetro: nombre de usuario, UID, GID y directorio de
@@ -156,6 +162,8 @@ while true; do
 done
 ````
 
+![image](https://github.com/user-attachments/assets/6ec5b0bb-a08c-4fbc-a618-429365cbe422)
+
 # 9. Hacer un script llamado copia_scripts.sh, que haga un copiado de los scripts (archivos
 con extensión sh) creados en la carpeta pasada como parámetro, deben ser
 empaquetados con el comando tar y el nombre del archivo debe tener el siguiente
@@ -172,6 +180,8 @@ else
   echo "El directorio no existe."
 fi
 ````
+
+![image](https://github.com/user-attachments/assets/0ac04aab-ff4e-4d07-824e-0fc951df30a0)
 
 
 
