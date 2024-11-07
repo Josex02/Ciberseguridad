@@ -25,7 +25,7 @@ mayor=$(( altura3 > mayor ? altura3 : mayor ))
 echo "La mayor altura es: $((mayor / 100)).$((mayor % 100)) metros."
 ````
 
-# 3. Haz un script llamado cuenta10ficheros.sh, que nos diga si en el directorio pasado
+## 3. Haz un script llamado cuenta10ficheros.sh, que nos diga si en el directorio pasado
 como parámetro hay más de 10 ficheros o no, es decir, los directorios no deben ser
 contados.
 
